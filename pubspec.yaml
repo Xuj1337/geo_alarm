@@ -1,0 +1,50 @@
+name: geo_alarm_riverpod
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.6
+  flutter:
+    sdk: flutter
+  #ui
+  sliding_up_panel2: ^3.3.0+1
+
+  #navigation
+  go_router: ^10.1.2
+
+  #logging
+  l: ^4.0.2
+
+  #map
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.0.0
+  flutter_google_places_sdk: ^0.3.6
+  flutter_polyline_points: ^2.0.0
+  
+  #code gen
+  json_annotation: ^4.8.1
+  freezed_annotation: ^2.4.1
+  geocoding: ^2.1.0
+  
+  #state
+  flutter_riverpod: ^2.4.0
+
+  #Utils
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_lints: ^2.0.3
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+  freezed: ^2.4.2
+
+
+flutter:
+  uses-material-design: true
